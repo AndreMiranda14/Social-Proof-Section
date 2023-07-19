@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 100px 100px 100px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;    
+}
+
+.titulo {
+    font-size: 60px;
+    width: 400px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 20px;
+    line-height: 50px;
+    letter-spacing: -3px;
+ }
+
+.subtitulo {
+    width: 450px;
+    font-size: 18px;
+    font-family: 'League Spartan';
+    font-weight: 500;
+    color:hsl(303, 10%, 53%);
+    line-height: 25px; 
+}
+
+.box {
+    background-color: hsl(300, 24%, 96%);
+    width: 450px;
+    height: 55px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    font-size: 18px;
+    font-family: 'League Spartan';
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.estrelas {
+    display:flex;
+    justify-content: space-evenly;
+    width: 120px;
+    margin: 30px;
+}
+
+#box2 {
+    margin-left: 45px;
+}
+
+#box3 {
+    margin-left: 90px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container-comentario {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    margin: 40px 0px 0px 33px;
+}
+
+.comentario {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 350px;
+    height: 240px;   
+}
+
+.image_profile{
+    border-radius: 100%;
+    width: 40px;
+}
+
+.nome{
+    font-size: 17px;
+    font-family: 'League Spartan';
+    color:hsl(0, 0%, 100%); 
+    font-weight: 500;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.sub-nome{
+    font-size: 16px;
+    font-family: 'League Spartan';
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.texto-comentario{
+    font-size: 16px;
+    font-family: 'League Spartan';
+    color:hsl(0, 0%, 100%); 
+    font-weight: 400;
+    margin: 25px 35px 0px 35px;
+    line-height: 25px;
+}
+
+#comentario2 {
+    margin-top: 15px;
+}
+
+#comentario3 {
+    margin-top: 30px;
+}
+
+.fundo-mobile {
+    display: none;
+}
+
+.fundo-top {
+    position: absolute;
+    bottom: 600px;
+    left: 0;
+}
+
+.fundo-bottom {
+    position: fixed;
+    bottom: -30px;
+    left: 400px;
+}
+
+@media (max-width: 375px){
+    
+    body {
+        display: block;
+        align-items: center;
+        margin: 70px 20px 0px 20px;
+     }
+
+    .titulo{
+        text-align:center;
+        width: 340px;
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+
+    .subtitulo{
+        text-align: center;
+        font-size: 18px;
+        width: 340px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .box {
+        background-color: hsl(300, 24%, 96%);
+        width: 340px;
+        height: 80px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container {
+        display: block;
+    }
+  
+    .texto {
+        font-size: 17px;
+        font-family: 'League Spartan';
+        color: hsl(300, 43%, 22%);
+        font-weight: 700;
+    }
+    
+    .estrelas {
+        display: flex;
+        width: 40%;
+        height: 20%;
+        margin: 10px 0px 10px 0px;
+        padding: 0;
+    }
+
+    #box2, #box3{
+        margin: 0;
+    }
+    
+    .cabecalho{
+        margin-top: 15px;
+    }
+
+    .container-comentario {
+        display: block;
+    }
+
+    .comentario {
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        width: 340px;
+        height: 260px;   
+    }
+    
+    .image_profile{
+        border-radius: 100%;
+        width: 45px;
+        margin: 30px 0px 0px 10px;
+    }
+    
+    .nome{
+        font-size: 17px;
+        font-family: 'League Spartan';
+        color:hsl(0, 0%, 100%); 
+        font-weight: 500;
+        height: 20px;
+        margin: 30px 0px 0px 20px;
+    }
+    
+    .sub-nome{
+        font-size: 16px;
+        font-family: 'League Spartan';
+        color: hsl(333, 80%, 67%);
+        font-weight: 400;
+        margin: 0px 0px 0px 20px;
+    }
+    
+    .texto-comentario{
+        font-size: 16px;
+        font-family: 'League Spartan';
+        color:hsl(0, 0%, 100%); 
+        font-weight: 400;
+        margin: 20px 50px 0px 30px;
+        line-height: 25px;
+    }
+    
+    .fundo-desktop {
+        display:none;
+    }
+
+    .fundo-mobile {
+        display: flex;
+    }
+
+    .fundo-top-mobile {
+        position: absolute;
+        bottom: 600px;
+        left: 0;
+    }
+    
+    .fundo-bottom-mobile {
+        position: absolute;
+        bottom: -800px;
+        left: 0px;
+    }
+
+    #comentario2 {
+        margin-top: 0px;
+    }
+    
+    #comentario3 {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+}
