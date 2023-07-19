@@ -4,6 +4,7 @@ Projeto de criação de um Social Proof Section proposto pelo Frontend Mentor
 Frontend Mentor - seção de prova social
 
 ![Visualização do design para o desafio de codificação da seção de prova social](./desktop-design.jpg)
+![Visualização do design para o desafio de codificação da seção de prova social](./mobile-design.jpg)
 
 ## Bem-vindo! 👋
 
